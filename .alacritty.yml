@@ -1,0 +1,48 @@
+background_opacity: 0.7
+
+window:
+  
+  # Title includes both 'alacritty' and 'terminal'
+  title: Alacritty Terminal
+
+  dimensions:
+    columns: 168  
+    lines: 42
+
+  padding:
+    x: 5
+    y: 5
+position:
+    x: 30
+    y: 10
+
+  # More terminal 4 me
+  decorations: none
+
+colors:
+  primary:
+    background: '0x1f1f1f'
+    foreground: '0xe5e1d8'
+
+font:
+  normal:
+    family: roboto mono
+  size: 6
+
+shell:
+  program: /usr/bin/tmux
+
+
+key_bindings:
+  - { key: T, mods: Shift|Control, chars: "\x06\x63"}  
+  - { key: W, mods: Shift|Control, chars: "\x06\x78"}  
+  - { key: H, mods: Shift|Control, chars: "\x06\x68"}  
+  - { key: J, mods: Shift|Control, chars: "\x06\x6a"}  
+  - { key: K, mods: Shift|Control, chars: "\x06\x6b"}  
+  - { key: L, mods: Shift|Control, chars: "\x06\x6c"}  
+  - { key: Tab, mods: Control, chars: "\x06\x6e"}  
+  - { key: Tab, mods: Shift|Control, chars: "\x06\x70"}  
+  - { key: Left, mods: Shift|Control, chars: "\x06\x48"}  
+  - { key: Right, mods: Shift|Control, chars: "\x06\x4c"}  
+  - { key: Down, mods: Shift|Control, chars: "\x06\x4a"}  
+  - { key: Up, mods: Shift|Control, chars: "\x06\x4b"}  
