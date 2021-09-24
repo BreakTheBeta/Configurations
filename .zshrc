@@ -2,6 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 #
 export ZSH="/home/wilhelm/.oh-my-zsh"
+export EDITOR=nvim
+export VISUAL=nvim
 
 ZSH_THEME="agnoster"
 
