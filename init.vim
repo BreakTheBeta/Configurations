@@ -22,13 +22,25 @@ let g:afterglow_blackout=1
 call plug#begin()
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
-
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'pangloss/vim-javascript'    " JavaScript support
+Plug 'leafgarland/typescript-vim' " TypeScript syntax
+Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
+Plug 'jparise/vim-graphql'        " GraphQL syntax
 
 call plug#end()
 
-hi Normal guibg=NONE ctermbg=NONE
-highlight Normal     ctermbg=NONE guibg=NONE
-highlight LineNr     ctermbg=NONE guibg=NONE
-highlight SignColumn ctermbg=NONE guibg=NONE
+" Theme that works well for a transparent theme, even against white
+" backgrouond
+hi Comment        ctermfg=66 cterm=italic
+hi MatchParen ctermbg=54
+hi Comment        ctermfg=40
+hi Number ctermfg=199
+hi link Float Number
+hi link Boolean Number
+hi Statement      ctermfg=205 ctermbg=none
+hi StorageClass   ctermfg=208
+hi LineNr         ctermfg=228 ctermbg=none
+hi Constant       ctermfg=178
+hi String         ctermfg=213 
