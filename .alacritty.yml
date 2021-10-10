@@ -24,6 +24,29 @@ colors:
     background: '0x1f1f1f'
     foreground: '0xe5e1d8'
 
+  # Normal colors
+  normal:
+    black:   '0x212c2a'
+    red:     '0xff9580'
+    green:   '0x8aff80'
+    yellow:  '0xffff80'
+    blue:    '0x9580ff'
+    magenta: '0xff80bf'
+    cyan:    '0x80ffea'
+    white:   '0xf8f8f2'
+
+  # Bright colors
+  bright:
+    black:   '0x212c2a'
+    red:     '0xffaa99'
+    green:   '0xa2ff99'
+    yellow:  '0xffff99'
+    blue:    '0xaa99ff'
+    magenta: '0xff99cc'
+    cyan:    '0x99ffee'
+    white:   '0xffffff'
+
+
 font:
   normal:
     family: roboto mono
