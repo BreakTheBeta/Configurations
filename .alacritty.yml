@@ -1,9 +1,9 @@
-background_opacity: 0.8
-
 window:
   
   # Title includes both 'alacritty' and 'terminal'
   title: Alacritty Terminal
+  opacity: 0.83
+
 
   dimensions:
     columns: 168  

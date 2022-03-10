@@ -25,3 +25,16 @@ eval "$(zoxide init zsh)"
 alias v="nvim"
 alias sudo="sudo "
 bindkey '^e' end-of-line
+
+
+alias gs="git status"
+alias gch="git checkout"
+
+alias ga="git add"
+alias gaa="git add -A"
+
+alias gp="git pull"
+alias gc="git commit -m"
+
+alias grc="git rebase --continue"
+
