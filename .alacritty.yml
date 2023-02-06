@@ -1,24 +1,21 @@
 window:
-  
   # Title includes both 'alacritty' and 'terminal'
   title: Alacritty Terminal
   opacity: 0.83
-
 
   dimensions:
     columns: 168  
     lines: 42
 
   padding:
-    x: 5
-    y: 5
+    x: 2
+    y: 0
 position:
     x: 30
     y: 10
 
   # More terminal 4 me
-  decorations: none
-
+  # decorations: none
 colors:
   primary:
     background: '0x1f1f1f'
@@ -34,6 +31,7 @@ colors:
     magenta: '0xff80bf'
     cyan:    '0x80ffea'
     white:   '0xf8f8f2'
+    darkred: '0x80ffea'
 
   # Bright colors
   bright:
@@ -45,15 +43,36 @@ colors:
     magenta: '0xff99cc'
     cyan:    '0x99ffee'
     white:   '0xffffff'
+    darkred: '0x80ffea'
+
+
+  # Custom colours for diff highlight
+
+  indexed_colors: [
+    { index: 52, color: "#552433"},
+    { index: 53, color: "#FC3506"},
+
+    { index: 65, color: "#273a33"},
+    { index: 66, color: "#E4E6DD"},
+
+    { index: 67, color: "#34613c"},
+    { index: 69, color: "#F9F5F8"},
+
+    { index: 70, color: "#336158"},
+    { index: 71, color: "#336158"},
+
+    { index: 72, color: "#50f080"},
+    { index: 73, color: "#06100A"},
+  ]
 
 
 font:
-  normal:
-    family: roboto mono
-  size: 6
+  #normal:
+  #  family: roboto mono
+  size: 12
 
-shell:
-  program: /usr/bin/tmux
+    #shell:
+  #  program: /usr/local/bin/tmux
 
 
 key_bindings:
@@ -69,3 +88,8 @@ key_bindings:
   - { key: Right, mods: Shift|Control, chars: "\x06\x4c"}  
   - { key: Down, mods: Shift|Control, chars: "\x06\x4a"}  
   - { key: Up, mods: Shift|Control, chars: "\x06\x4b"}  
+  - { key: Left, mods: Control, chars: "\x1bb"}
+  - { key: Right, mods: Control, chars: "\x1bf"}
+  - { key: W, mods: Command, action: None}
+
+
