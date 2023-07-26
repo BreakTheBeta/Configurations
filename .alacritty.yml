@@ -48,25 +48,38 @@ colors:
 
   # Custom colours for diff highlight
 
-  indexed_colors: [
-    { index: 52, color: "#552433"},
-    { index: 53, color: "#FC3506"},
-
-    { index: 65, color: "#273a33"},
-    { index: 66, color: "#E4E6DD"},
-
-    { index: 67, color: "#34613c"},
-    { index: 69, color: "#F9F5F8"},
-
-    { index: 70, color: "#336158"},
-    { index: 71, color: "#336158"},
-
-    { index: 72, color: "#50f080"},
-    { index: 73, color: "#06100A"},
-  ]
+      #  indexed_colors: [
+      #    { index: 52, color: "#552433"},
+      #    { index: 53, color: "#FC3506"},
+      #
+      #    { index: 65, color: "#273a33"},
+      #    { index: 66, color: "#E4E6DD"},
+      #
+      #    { index: 67, color: "#34613c"},
+      #    { index: 69, color: "#F9F5F8"},
+      #
+      #    { index: 70, color: "#336158"},
+      #    { index: 71, color: "#336158"},
+      #
+      #    { index: 72, color: "#50f080"},
+      #    { index: 73, color: "#06100A"},
+      #  ]
 
 
 font:
+  normal:
+   family: DejaVuSansMono Nerd Font Mono
+   style: Book
+  bold:
+   family: DejaVuSansMono Nerd Font Mono
+   style: Bold
+  italic:
+    family: DejaVuSansMono Nerd Font Mono
+    style: Oblique
+  bold_italic:
+    family: DejaVuSansMono Nerd Font Mono
+    style: Bold Oblique
+
   #normal:
   #  family: roboto mono
   size: 12
