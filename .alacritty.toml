@@ -1,0 +1,130 @@
+[colors.bright]
+black = "0x212c2a"
+blue = "0xaa99ff"
+cyan = "0x99ffee"
+green = "0xa2ff99"
+magenta = "0xff99cc"
+red = "0xffaa99"
+white = "0xffffff"
+yellow = "0xffff99"
+
+[colors.normal]
+black = "0x212c2a"
+blue = "0x9580ff"
+cyan = "0x80ffea"
+green = "0x8aff80"
+magenta = "0xff80bf"
+red = "0xff9580"
+white = "0xf8f8f2"
+yellow = "0xffff80"
+
+[colors.primary]
+background = "0x1f1f1f"
+foreground = "0xe5e1d8"
+
+[font]
+size = 12
+
+[font.bold]
+family = "DejaVuSansM Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "DejaVuSansM Nerd Font Mono"
+style = "Bold Oblique"
+
+[font.italic]
+family = "DejaVuSansM Nerd Font Mono"
+style = "Oblique"
+
+[font.normal]
+family = "DejaVuSansM Nerd Font Mono"
+style = "Regular"
+
+[[keyboard.bindings]]
+chars = "\u0006c"
+key = "T"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006x"
+key = "W"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006h"
+key = "H"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006j"
+key = "J"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006k"
+key = "K"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006l"
+key = "L"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006n"
+key = "Tab"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0006p"
+key = "Tab"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006H"
+key = "Left"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006L"
+key = "Right"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006J"
+key = "Down"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u0006K"
+key = "Up"
+mods = "Shift|Control"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "None"
+key = "W"
+mods = "Command"
+
+[window]
+opacity = 0.83
+title = "Alacritty Terminal"
+
+[window.dimensions]
+columns = 168
+lines = 42
+
+[window.padding]
+x = 2
+y = 0
+
