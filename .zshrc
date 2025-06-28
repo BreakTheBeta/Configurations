@@ -72,3 +72,8 @@ source <(kubectl completion zsh)  # setup autocomplete in zsh into the current s
 # Ranger
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
+# Python
+alias venv="source .venv/bin/activate"
+alias pypath="export PYTHONPATH=."
+
+
