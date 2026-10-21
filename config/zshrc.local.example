@@ -1,0 +1,5 @@
+# Copy to ~/.zshrc.local; never commit the populated file.
+# export GOPRIVATE="github.com/YOUR-ORGANISATION/*"
+# export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.config/gcloud/application_default_credentials.json"
+# alias shuttle='sshuttle -r USER@BASTION 0.0.0.0/0'
+# Add private project aliases and any legacy Java/Gradle overrides here.

@@ -1,0 +1,48 @@
+{
+  "com.apple.keyboard.modifiermapping.13-61664-0": [
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771303,
+      "HIDKeyboardModifierMappingDst": 30064771303
+    },
+    {
+      "HIDKeyboardModifierMappingDst": 30064771299,
+      "HIDKeyboardModifierMappingSrc": 30064771299
+    }
+  ],
+  "com.apple.keyboard.modifiermapping.5426-534-0": [
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771299,
+      "HIDKeyboardModifierMappingDst": 30064771298
+    },
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771303,
+      "HIDKeyboardModifierMappingDst": 30064771302
+    },
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771302,
+      "HIDKeyboardModifierMappingDst": 30064771303
+    },
+    {
+      "HIDKeyboardModifierMappingDst": 30064771113,
+      "HIDKeyboardModifierMappingSrc": 30064771129
+    },
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771298,
+      "HIDKeyboardModifierMappingDst": 30064771299
+    }
+  ],
+  "com.apple.keyboard.modifiermapping.0-0-0": [
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771303,
+      "HIDKeyboardModifierMappingDst": 30064771303
+    },
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771129,
+      "HIDKeyboardModifierMappingDst": 30064771113
+    },
+    {
+      "HIDKeyboardModifierMappingSrc": 30064771299,
+      "HIDKeyboardModifierMappingDst": 30064771299
+    }
+  ]
+}

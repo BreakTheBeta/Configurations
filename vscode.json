@@ -1,112 +1,51 @@
-// Place your key bindings in this file to override the defaultsauto[]
-[
-  {
-    "key": "ctrl+shift+l",
-    "command": "toggleVim"
+{
+  "go.testFlags": [
+    "-count=1"
+  ],
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "go.toolsManagement.autoUpdate": true,
+  "editor.accessibilitySupport": "off",
+  "notebook.output.textLineLimit": 300,
+  "notebook.output.wordWrap": true,
+  "notebook.output.scrolling": true,
+  "go.buildTags": "integration",
+  "go.testTimeout": "3000s",
+  "editor.lineNumbers": "on",
+  "database-client.autoSync": true,
+  "python.languageServer": "Pylance",
+  "python.testing.unittestEnabled": true,
+  "vue.autoInsert.dotValue": true,
+  "vue.format.style.initialIndent": true,
+  "vue.format.script.initialIndent": true,
+  "vue.format.wrapAttributes": "force",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  {
-    "key": "ctrl+shift+j",
-    "command": "workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  {
-    "key": "ctrl+shift+e",
-    "command": "-workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
   },
-  {
-    "key": "ctrl+shift+j",
-    "command": "-workbench.action.search.toggleQueryDetails",
-    "when": "inSearchEditor || searchViewletFocus"
+  "python.venvFolders": [
+    "${workspaceFolder}/.env"
+  ],
+  "cline.vsCodeLmModelSelector": {},
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
   },
-  {
-    "key": "ctrl+shift+k",
-    "command": "-editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  {
-    "key": "ctrl+shift+b",
-    "command": "-workbench.action.tasks.build"
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  {
-    "key": "ctrl+shift+k",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "-workbench.action.newWindow"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "workbench.action.files.newUntitledFile"
-  },
-  {
-    "key": "ctrl+n",
-    "command": "-workbench.action.files.newUntitledFile"
-  },
-  {
-    "key": "ctrl+shift+v",
-    "command": "-excel.preview",
-    "when": "editorLangId == 'excel'"
-  },
-  {
-    "key": "ctrl+shift+v",
-    "command": "-csv.preview",
-    "when": "editorLangId == 'csv'"
-  },
-  {
-    "key": "ctrl+shift+v",
-    "command": "-csv.preview",
-    "when": "editorLangId == 'tsv'"
-  },
-  {
-    "key": "ctrl+shift+v",
-    "command": "-csv.preview",
-    "when": "editorLangId == 'csv (semicolon)'"
-  },
-  {
-    "key": "ctrl+shift+v",
-    "command": "-csv.preview",
-    "when": "editorLangId == 'csv (pipe)'"
-  },
-  {
-    "key": "ctrl+alt+l",
-    "command": "workbench.action.moveEditorToNextGroup"
-  },
-  {
-    "key": "ctrl+alt+right",
-    "command": "-workbench.action.moveEditorToNextGroup"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "workbench.action.navigateLeft"
-  },
-  {
-    "key": "ctrl+l",
-    "command": "workbench.action.navigateRight"
-  },
-  {
-    "key": "ctrl+n",
-    "command": "workbench.action.quickOpenSelectNext",
-    "when": "inFilesPicker || inQuickOpen"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "workbench.action.quickOpenSelectPrevious",
-    "when": "inFilesPicker || inQuickOpen"
-  },
-  {
-    "key": "s",
-    "command": "renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  },
-  {
-    "key": "f2",
-    "command": "-renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  }
-]
+  "terminal.integrated.defaultProfile.osx": "zsh"
+}

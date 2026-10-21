@@ -1,0 +1,15 @@
+{
+  "feline.nvim": "528d6ec3a29c0d1ce6afcd145d02965f4207f61e",
+  "vim-multiple-cursors": "6456718e1d30b42c04b920c5413ca44f68f08759",
+  "gen.nvim": "e09a8dbffa139ad60d5b47998fcc8669ead1ebf4",
+  "dracula": "65f4225e0526516a67d56c8ac09925a209138e53",
+  "tokyonight.nvim": "dca4adba7dc5f09302a00b0e76078d54d82d2658",
+  "lualine.nvim": "2a5bae925481f999263d6f5ed8361baef8df4f83",
+  "plenary.nvim": "3707cdb1e43f5cea73afb6037e6494e7ce847a66",
+  "LargeFile": "3941a37b2b0288524300348a39521a46539bf9f6",
+  "nvim-treesitter": "55ae57419504432ba9c229ea9b03bad621ab9ef7",
+  "repmo-vim": "b2721c7a7e26fb6191e6307e32c23a43a90c88a9",
+  "diffview.nvim": "4516612fe98ff56ae0415a259ff6361a89419b0a",
+  "nvim-web-devicons": "402377242b04be3f4f0f3720bd952df86e946c30",
+  "nvim-ts-rainbow2": "b3120cd5ae9ca524af9cb602f41e12e301fa985f"
+}

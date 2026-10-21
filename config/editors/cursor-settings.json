@@ -1,0 +1,38 @@
+{
+  "go.testFlags": [
+    "-count=1"
+  ],
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "go.toolsManagement.autoUpdate": true,
+  "editor.accessibilitySupport": "off",
+  "notebook.output.textLineLimit": 300,
+  "notebook.output.wordWrap": true,
+  "notebook.output.scrolling": true,
+  "go.buildTags": "integration",
+  "go.testTimeout": "3000s",
+  "editor.lineNumbers": "on",
+  "database-client.autoSync": true,
+  "python.languageServer": "Pylance",
+  "python.testing.unittestEnabled": true,
+  "vue.autoInsert.dotValue": true,
+  "vue.format.style.initialIndent": true,
+  "vue.format.script.initialIndent": true,
+  "vue.format.wrapAttributes": "force",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "cursor.cpp.disabledLanguages": [
+    "plaintext"
+  ]
+}

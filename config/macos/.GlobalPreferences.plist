@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleInterfaceStyle</key>
+	<string>Dark</string>
+	<key>AppleKeyboardUIMode</key>
+	<integer>0</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
+	<key>InitialKeyRepeat</key>
+	<real>15.0</real>
+	<key>KeyRepeat</key>
+	<real>2.0</real>
+	<key>NSAutomaticCapitalizationEnabled</key>
+	<true/>
+	<key>NSAutomaticPeriodSubstitutionEnabled</key>
+	<false/>
+</dict>
+</plist>

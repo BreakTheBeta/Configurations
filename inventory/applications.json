@@ -1,0 +1,257 @@
+[
+  {
+    "app": "Affinity Photo 2.app",
+    "bundleId": "com.seriflabs.affinityphoto2",
+    "version": "2.5.3"
+  },
+  {
+    "app": "Alacritty.app",
+    "bundleId": "org.alacritty",
+    "version": "0.15.0"
+  },
+  {
+    "app": "AltTab.app",
+    "bundleId": "com.lwouis.alt-tab-macos",
+    "version": "1"
+  },
+  {
+    "app": "Amphetamine.app",
+    "bundleId": "com.if.Amphetamine",
+    "version": "5.3.2"
+  },
+  {
+    "app": "Android File Transfer.app",
+    "bundleId": "com.google.android.mtpviewer",
+    "version": "1.0.12"
+  },
+  {
+    "app": "Arc.app",
+    "bundleId": "company.thebrowser.Browser",
+    "version": "1.73.0"
+  },
+  {
+    "app": "Audacity.app",
+    "bundleId": "org.audacityteam.audacity",
+    "version": "3.7.3.0"
+  },
+  {
+    "app": "Bitwarden.app",
+    "bundleId": "com.bitwarden.desktop",
+    "version": "2024.3.0"
+  },
+  {
+    "app": "Brave Browser.app",
+    "bundleId": "com.brave.Browser",
+    "version": "155.1.97.57"
+  },
+  {
+    "app": "ChatGPT.app",
+    "bundleId": "com.openai.chat",
+    "version": "1.2024.138"
+  },
+  {
+    "app": "Cursor.app",
+    "bundleId": "com.todesktop.230313mzl4w4u92",
+    "version": "0.50.5"
+  },
+  {
+    "app": "DBeaver.app",
+    "bundleId": "org.jkiss.dbeaver.core.product",
+    "version": "24.1.0"
+  },
+  {
+    "app": "Discord.app",
+    "bundleId": "com.hnc.Discord",
+    "version": "0.0.415"
+  },
+  {
+    "app": "Docker.app",
+    "bundleId": "com.docker.docker",
+    "version": "4.23.0"
+  },
+  {
+    "app": "Firefox.app",
+    "bundleId": "org.mozilla.firefox",
+    "version": "152.0.4"
+  },
+  {
+    "app": "GarageBand.app",
+    "bundleId": "com.apple.garageband10",
+    "version": "10.4.8"
+  },
+  {
+    "app": "Google Chrome.app",
+    "bundleId": "com.google.Chrome",
+    "version": "155.0.8059.85"
+  },
+  {
+    "app": "Handy.app",
+    "bundleId": "com.pais.handy",
+    "version": "0.9.8"
+  },
+  {
+    "app": "IntelliJ IDEA.app",
+    "bundleId": "com.jetbrains.intellij",
+    "version": "2024.3.4.1"
+  },
+  {
+    "app": "Keynote.app",
+    "bundleId": "com.apple.iWork.Keynote",
+    "version": "13.0"
+  },
+  {
+    "app": "LM Studio.app",
+    "bundleId": "ai.elementlabs.lmstudio",
+    "version": "0.3.21"
+  },
+  {
+    "app": "MATLAB_R2024a.app",
+    "bundleId": "com.mathworks.matlab",
+    "version": null
+  },
+  {
+    "app": "Microsoft Teams.app",
+    "bundleId": "com.microsoft.teams2",
+    "version": "26225.1704.5081.2906"
+  },
+  {
+    "app": "Minecraft.app",
+    "bundleId": "com.mojang.minecraftlauncher",
+    "version": "2.3.2"
+  },
+  {
+    "app": "Mullvad VPN.app",
+    "bundleId": "net.mullvad.vpn",
+    "version": "2023.4"
+  },
+  {
+    "app": "Numbers.app",
+    "bundleId": "com.apple.iWork.Numbers",
+    "version": "13.0"
+  },
+  {
+    "app": "OBS.app",
+    "bundleId": "com.obsproject.obs-studio",
+    "version": "31.0.3"
+  },
+  {
+    "app": "ObinsKit.app",
+    "bundleId": "net.obins.obinslab-starter",
+    "version": "1.2.11"
+  },
+  {
+    "app": "Obsidian.app",
+    "bundleId": "md.obsidian",
+    "version": "1.5.8"
+  },
+  {
+    "app": "Ollama.app",
+    "bundleId": "com.electron.ollama",
+    "version": "0.40.1"
+  },
+  {
+    "app": "Pages.app",
+    "bundleId": "com.apple.iWork.Pages",
+    "version": "13.0"
+  },
+  {
+    "app": "Postman.app",
+    "bundleId": "com.postmanlabs.mac",
+    "version": "10.24.26"
+  },
+  {
+    "app": "Rectangle.app",
+    "bundleId": "com.knollsoft.Rectangle",
+    "version": "0.69"
+  },
+  {
+    "app": "Safari.app",
+    "bundleId": "com.apple.Safari",
+    "version": "26.6.2"
+  },
+  {
+    "app": "Steam.app",
+    "bundleId": "com.valvesoftware.steam",
+    "version": null
+  },
+  {
+    "app": "T3 Code (Beta).app",
+    "bundleId": "com.t3tools.t3code",
+    "version": "0.4.5-preview.20261018.1"
+  },
+  {
+    "app": "TIDAL.app",
+    "bundleId": "com.tidal.desktop",
+    "version": "2.41.3"
+  },
+  {
+    "app": "Tailscale.app",
+    "bundleId": "io.tailscale.ipn.macsys",
+    "version": "1.92.3"
+  },
+  {
+    "app": "Telegram.app",
+    "bundleId": "ru.keepcoder.Telegram",
+    "version": "12.5"
+  },
+  {
+    "app": "VLC.app",
+    "bundleId": "org.videolan.vlc",
+    "version": "3.0.23"
+  },
+  {
+    "app": "Visual Studio Code.app",
+    "bundleId": "com.microsoft.VSCode",
+    "version": "1.99.3"
+  },
+  {
+    "app": "Wireshark.app",
+    "bundleId": "org.wireshark.Wireshark",
+    "version": "4.4.0"
+  },
+  {
+    "app": "Xcode.app",
+    "bundleId": "com.apple.dt.Xcode",
+    "version": "16.2"
+  },
+  {
+    "app": "Zed.app",
+    "bundleId": "dev.zed.Zed",
+    "version": "1.23.3"
+  },
+  {
+    "app": "balenaEtcher.app",
+    "bundleId": "io.balena.etcher",
+    "version": "1.19.25"
+  },
+  {
+    "app": "eqMac.app",
+    "bundleId": "com.bitgapp.eqmac",
+    "version": "v1.8.7"
+  },
+  {
+    "app": "iMovie.app",
+    "bundleId": "com.apple.iMovieApp",
+    "version": "10.3.5"
+  },
+  {
+    "app": "pgAdmin 4.app",
+    "bundleId": "org.pgadmin.pgadmin4",
+    "version": "9.1"
+  },
+  {
+    "app": "qBittorrent.app",
+    "bundleId": "org.qbittorrent.qBittorrent",
+    "version": "5.0.3"
+  },
+  {
+    "app": "sioyek.app",
+    "bundleId": "info.sioyek.sioyek",
+    "version": "2.0"
+  },
+  {
+    "app": "zoom.us.app",
+    "bundleId": "us.zoom.xos",
+    "version": "6.1.11 (39163)"
+  }
+]

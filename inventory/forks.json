@@ -1,0 +1,12 @@
+{
+  "alttab": {
+    "repository": "BreakTheBeta/alt-tab-macos",
+    "commit": "eb25838e6934c5fd4c41bbcb7e9476df2bfb1528",
+    "directory": "alt-tab-macos"
+  },
+  "t3": {
+    "repository": "BreakTheBeta/T3codefold",
+    "commit": "8d48a1ec85471b53805375dea6144d2941dd810a",
+    "directory": "t3code-fold-voice"
+  }
+}
