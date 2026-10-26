@@ -6,20 +6,21 @@ Preview `python3 scripts/checkout-forks.py`, then append `--apply` to clone both
 
 ## AltTab
 
-Repository: [BreakTheBeta/alt-tab-macos](https://github.com/BreakTheBeta/alt-tab-macos). Audited commit: `eb25838e` (“Add based release build mode”). The installed app reports version/build `1`/`1`, an ad-hoc signature and bundle ID `com.lwouis.alt-tab-macos`.
+**Install Based AltTab: [BreakTheBeta/based-alttab](https://github.com/BreakTheBeta/based-alttab), branch `based`.** It's AltTab 11.10.1 with every paid-feature restriction, Pro badge, upgrade/support prompt and the updater removed: no ads, no nags. Don't install upstream AltTab or the Homebrew cask instead. Pinned commit: `e811fc54` (“Based AltTab: remove paid-feature restrictions and promotions”). The bundle ID is unchanged (`com.lwouis.alt-tab-macos`), so existing preferences carry over. The older `master` branch (11.1.0 with a `BASED=1` build flag, commit `eb25838e`) is superseded.
 
-Install full Xcode, open it once, accept its licence and install requested platform components. Point Command Line Tools at it if necessary (`sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer`). The fork's `ai/build.sh` is the build entry point; `BASED=1` passes the fork-specific Swift compilation flag. To make a local optimized release without the original developer's signing certificate:
+Install full Xcode, open it once, accept its licence and install requested platform components. Point Command Line Tools at it if necessary (`sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer`). Then test and build an optimized release without the original developer's signing certificate:
 
 ```sh
 cd ~/Projects/alt-tab-macos
-BASED=1 SCHEME=Release CONFIGURATION=Release bash ai/build.sh \
+bash ai/test.sh
+SCHEME=Release CONFIGURATION=Release bash ai/build.sh \
   CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM= \
   'OTHER_CODE_SIGN_FLAGS=--timestamp=none' build
 ```
 
-The expected product is `DerivedData/Build/Products/Release/AltTab.app`; confirm it exists and inspect its signature (`codesign -dv PATH`) before installation. Quit the existing AltTab first, back it up if present, and copy the built app to `/Applications/AltTab.app` using Finder. Keep the bundle ID stable. Local signing changes can require granting Accessibility/Screen Recording again. Never copy signing certificates or a populated `config/local.xcconfig` into this public config repo. The build command comes from the audited fork; no full Xcode rebuild was performed as part of the configuration audit.
+Use a local self-signed identity instead of `-` if you have one; macOS then keeps Accessibility/Screen Recording grants across rebuilds. The expected product is `DerivedData/Build/Products/Release/AltTab.app`; confirm it exists and inspect its signature (`codesign -dv PATH`) before installation. Quit the existing AltTab first, back it up if present, and copy the built app to `/Applications/AltTab.app`. Local signing changes can require granting Accessibility/Screen Recording again. Never copy signing certificates or a populated `config/local.xcconfig` into this public config repo.
 
-The exported app preferences deliberately disable upstream automatic checks, unlike the old machine's enabled checks, to avoid replacing the personal fork. Keep fork updates intentional.
+This build has no in-app updater, and the exported app preferences disable upstream automatic checks, so nothing replaces it. To update, rebase `based` onto a newer upstream release, rebuild and reinstall deliberately.
 
 ## T3 Code Fold
 

@@ -27,7 +27,7 @@ Homebrew and package installers may request administrator authentication. The se
 - Zsh + Oh My Zsh/robbyrussell + zsh-vi-mode + zoxide; private overrides in `~/.zshrc.local`.
 - Alacritty font, colours, opacity and tmux shortcuts; tmux Ctrl-F prefix, Vim navigation, resize keys and plugins.
 - Live Neovim config with installed plugin commits pinned; VS Code, Cursor and Zed settings and extension lists.
-- Rectangle's Ctrl-Option-H/L split shortcuts and other explicit preferences; the custom AltTab fork and shortcut archives.
+- Rectangle's Ctrl-Option-H/L split shortcuts and other explicit preferences; Based AltTab (the ad-free AltTab fork to install, see `docs/forks.md`) and shortcut archives.
 - T3 Code Fold's UI preferences, keybindings and folded project settings, plus its source revision and build recipe.
 - Handy's Fn toggle, language/model choice and paste behaviour; standalone Tailscale installation and manual enrolment steps.
 - Explicit macOS preferences, per-keyboard modifier inventory, fonts, app/package inventories and an optional software collection.
