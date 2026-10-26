@@ -27,4 +27,4 @@ cask "cursor"
 cask "zed"
 cask "bitwarden"
 cask "google-chrome"
-# AltTab and T3 Code MUST come from the personal forks; see docs/forks.md.
+# AltTab MUST be Based AltTab (no ads/paywalls) and T3 Code the personal fork; see docs/forks.md.

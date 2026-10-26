@@ -27,7 +27,7 @@
 
 ## 4. Window switching and positioning
 
-- [ ] Install the **personal AltTab fork**, following [forks.md](forks.md), and Rectangle from the core Brewfile. Quit both and apply `python3 scripts/configure.py apps --apply`.
+- [ ] Install **Based AltTab** (the ad-free fork, not upstream AltTab), following [forks.md](forks.md), and Rectangle from the core Brewfile. Quit both and apply `python3 scripts/configure.py apps --apply`.
 - [ ] Grant AltTab Accessibility and Screen Recording permissions; grant Rectangle Accessibility. Open both and verify with multiple windows.
 - [ ] AltTab has zero display delay, small appearance settings, and the recorded **Command hold** shortcut. The recorded second “next window” shortcut is Tab. Other unset controls inherit the pinned fork's defaults; inspect its Shortcuts panel and test Cmd-Tab. Archived ShortcutRecorder data in its plist is intentional shortcut data, with no license or telemetry export.
 - [ ] In Rectangle, verify **Ctrl-Option-H** = left half and **Ctrl-Option-L** = right half. `toggleTodo` is Ctrl-Option-B and `reflowTodo` is Ctrl-Option-N; these depend on support in the installed Rectangle version. The source ran Rectangle 0.69; current Homebrew versions may add or rename features.
